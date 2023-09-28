@@ -1,0 +1,44 @@
+.projectDetail{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+    width: 1200px;
+    height: 550px;
+    background-color: #ffff;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 30ch;
+    
+}
+.projectDetail img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+  }
+  
+  .projectDetail .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.projectDetail h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.projectDetail p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+span {
+    color: rgb(61, 3, 255);
+}

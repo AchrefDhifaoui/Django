@@ -1,0 +1,59 @@
+.demande_project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    width: 1200px;
+    height: 550px;
+    background-color: #ffff;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 30ch;
+}
+.project-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+   
+    border-radius: 5px;
+  }
+  
+  .project-form h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  .form-group button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-group button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
